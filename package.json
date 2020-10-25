@@ -1,0 +1,18 @@
+{
+  "name": "behaveplus-cemml",
+  "version": "0.1.0",
+  "description": "Fire behavior generator for CEMML",
+  "author": "Collin D. Bevins <cbevins@montana.com>",
+  "license": "MIT",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "example1": "node src/example1.js",
+    "example2": "node src/example2.js",
+    "hello": "node src/hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@cbevins/behaveplus-radical": "0.2.0"
+  }
+}
