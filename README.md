@@ -10,12 +10,12 @@ Fire behavior generator for CEMML using the @cbevins/behaveplus-radical fire beh
   - [randomInput.js](#randomInput.js)
   - [BehavePlusNodesAlphabeticalOrder.js](#BehavePlusNodesAlphabeticalOrder.js)
 - [API](#api)
-  - [Step 1 - Creating the Directed Acyclical Graph (DAG)](#step-1---creating-the-directed-acyclical-graph-(dag))
+  - [Step 1 - Creating the DAG](#step-1---creating-the-dag))
   - [Step 2 - Configuring the DAG](#step-2---configuring-the-dag)
   - [Step 3 - Select Outputs](#step-3---select-outputs)
   - [Step 4 - Set Input Values](#step-4---set-input-values)
   - [Storage Function](#storage-function)
-  - [RUn Limit](#run-limit)
+  - [Run Limit](#run-limit)
 - [Configuration Variables](#configuration-variables)
 
 ---
@@ -141,7 +141,9 @@ Estimating crown fire behavior requires:
 
 Only a small number of functions are required.
 
-# Step 1 - Creating the Directed Acyclical Graph (DAG)
+# Step 1 - Creating the DAG
+
+Create an instance of the behaveplus-radical directed acyclical graph (DAG) via:
 ```js
 import * as Dag from '@cbevins/behaveplus-radical'
 // Step 1 - create a behaveplus-radical directed acyclical graph (DAG)
