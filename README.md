@@ -10,7 +10,7 @@ Fire behavior generator for CEMML using the @cbevins/behaveplus-radical fire beh
   - [randomInput.js](#randomInput.js)
   - [BehavePlusNodesAlphabeticalOrder.js](#BehavePlusNodesAlphabeticalOrder.js)
 - [API](#api)
-  - [Step 1 - Creating the DAG](#step-1---creating-the-dag))
+  - [Step 1 - Creating the DAG](#step-1---creating-the-dag)
   - [Step 2 - Configuring the DAG](#step-2---configuring-the-dag)
   - [Step 3 - Select Outputs](#step-3---select-outputs)
   - [Step 4 - Set Input Values](#step-4---set-input-values)
